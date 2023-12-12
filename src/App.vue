@@ -8,12 +8,16 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import About from './components/About.vue'
+import Contact from './components/Contact.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    About
+    Contact
+    Home
   }
 }
 </script>

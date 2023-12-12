@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <router-link to="/contact">Contact</router-link>
+
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,8 +16,8 @@ import Home from './components/Home.vue'
 export default {
   name: 'App',
   components: {
-    About
-    Contact
+    About,
+    Contact,
     Home
   }
 }

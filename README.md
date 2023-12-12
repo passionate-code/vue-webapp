@@ -1,9 +1,24 @@
-# Vue.js on Render
+# vue-webapp
 
-This is a minimal Vue.js project bootstrapped with [vue-cli](https://cli.vuejs.org/guide/creating-a-project.html).
+## Project setup
+```
+npm install
+```
 
-The sample app is deployed on Render at https://vue.onrender.com.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Deployment
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Follow the guide at https://render.com/docs/deploy-vue-js.
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

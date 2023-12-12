@@ -5,6 +5,9 @@
     <router-link to="/contact">Contact</router-link>
 
     <router-view></router-view>
+    <About/>
+    <Contact/>
+    <Home/>
   </div>
 </template>
 
